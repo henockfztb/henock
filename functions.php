@@ -120,6 +120,11 @@ add_action( 'widgets_init', 'henock_fantahun_widgets_init' );
  * Enqueue scripts and styles.
  */
 function henock_fantahun_scripts() {
+	wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/bootstrap/css/bootstrap.min.css');
+
+	wp_enqueue_script('bootstrap-js', get_template_directory_uri() . 'bootstrap/js/bootstrap.min.js', array('jquery'));
+
+
 	wp_enqueue_style( 'henock-fantahun-style', get_stylesheet_uri() );
 
 	wp_enqueue_script( 'henock-fantahun-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
