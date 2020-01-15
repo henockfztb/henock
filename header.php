@@ -52,7 +52,18 @@
     <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'henock-fantahun' ); ?></button>
 
 
-
+<?php
+            wp_nav_menu([
+            'menu'            => 'primary-menu',
+            'theme_location'  => 'menu-1',
+            'container'       => 'div',
+            'container_id'    => 'navbarCollapse',
+            'container_class' => 'collapse navbar-collapse',
+            'menu_id'         => false,
+            
+			]);
+		
+        ?>
 		</nav>
 	</header><!-- #masthead -->
 
