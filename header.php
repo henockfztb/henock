@@ -60,7 +60,10 @@
             'container_id'    => 'navbarCollapse',
             'container_class' => 'collapse navbar-collapse',
             'menu_id'         => false,
-            
+            'menu_class'      => 'navbar-nav mr-auto',
+            'depth'           => 0,
+            'fallback_cb'     => 'functions::fallback',
+            'walker'          => new henock_navbar()
 			]);
 		
         ?>
