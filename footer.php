@@ -13,6 +13,12 @@
 
 	</div><!-- #content -->
 
+	<nav id="site-navigation"  class="navbar navbar-expand-md navbar-dark top bg-dark">
+    <a class="navbar-brand" href="#">
+        <?php bloginfo('name'); ?>
+    </a>
+    <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'henock-fantahun' ); ?></button>
+
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'henock-fantahun' ) ); ?>">
