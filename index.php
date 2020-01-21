@@ -14,7 +14,6 @@
 
 get_header();
 ?>
-
 <div class="container">
   <div class="row">
     <div class="col-sm-8">
@@ -46,18 +45,21 @@ get_header();
 
           endwhile;
 
-			the_posts_navigation();
+          the_posts_navigation();
 
-		else :
+        else :
 
-			get_template_part( 'template-parts/content', 'none' );
+          get_template_part( 'template-parts/content', 'none' );
 
-		endif;
-		?>
+        endif;
+        ?>
 
-		</main><!-- #main -->
-	</div><!-- #primary -->
-
-<?php
-get_sidebar();
-get_footer();
+        </main><!-- #main -->
+      </div><!-- #primary -->
+    </div>
+    <div class="col-sm-4">
+    <?php get_sidebar(); ?>
+    </div>
+  </div>
+</div>
+<?php get_footer(); ?>
