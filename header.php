@@ -25,7 +25,7 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'henock-fantahun' ); ?></a>
 	
 
-	<header id="masthead" class="site-header">
+	<header id="masthead" class="site-header" style="padding-bottom: 35px">
 		<div class="site-branding">
 			<?php
 			the_custom_logo();
@@ -35,13 +35,13 @@
 				<?php
 			else :
 				?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
+				<!-- <p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p> -->
 				<?php
 			endif;
 			$henock_fantahun_description = get_bloginfo( 'description', 'display' );
 			if ( $henock_fantahun_description || is_customize_preview() ) :
 				?>
-				<p class="site-description"><?php echo $henock_fantahun_description; /* WPCS: xss ok. */ ?></p>
+				<!-- <p class="site-description"><?php echo $henock_fantahun_description; /* WPCS: xss ok. */ ?></p> -->
 			<?php endif; ?>
 		</div><!-- .site-branding -->
 
@@ -67,6 +67,8 @@
 		
         ?>
 		</nav>
-	</header><!-- #masthead -->
+
+
+	</header ><!-- #masthead -->
 
 	<div id="content" class="site-content">
