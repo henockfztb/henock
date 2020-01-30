@@ -10,9 +10,9 @@
  */
 
 ?>
-
-	</div><!-- #content -->
-	<nav id="site-navigation"  class="navbar navbar-expand-md navbar-dark top bg-dark">
+	
+	<div style= "padding-top:80px;"> 
+	<nav id="site-navigation"  class="navbar navbar-expand-md navbar-dark top bg-dark" style="text-align:right">
     <a class="navbar-brand" href="#">
         <?php bloginfo('name'); ?>
     </a>
@@ -35,7 +35,7 @@
 
         ?>
 		</nav>
-	<footer id="colophon" class="site-footer">
+	<footer id="colophon" class="site-footer" style="text-align: center;">
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'henock-fantahun' ) ); ?>">
 				<?php
@@ -51,6 +51,7 @@
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
+
 
 <?php wp_footer(); ?>
 
