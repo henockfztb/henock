@@ -51,8 +51,8 @@
     <a class="navbar-brand" href="#">
         <?php bloginfo('name'); ?>
     </a>
-    <button class="navbar-toggler navbar-toggler-icon navbar-toggler-right " type = "button" data-toggle="collapse" data-target="#bs4navbar" aria-controls = "bs4navbar" aria-expanded="false" aria-label="Toggle navigation"><?php esc_html_e( '', 'HENOCK-FANTAHUN' ); ?></button>
-
+	<button class="navbar-toggler navbar-toggler-icon navbar-toggler-right" type = "button" data-toggle="collapse" data-target="#bs4navbar" aria-controls = "bs4navbar" aria-expanded="false" aria-label="Toggle navigation"><?php esc_html_e( '', 'henock-fantahun' ); ?></button>
+	
 <?php
             wp_nav_menu([
             'menu'            => 'primary-menu',
