@@ -10,15 +10,17 @@
 get_header();
 ?>
 
-	<div id="primary" class="content-area" style="text-align: center">
+	<div id="primary" class="content-area" style="text-align: center; padding-bottom:180px;">
 		<main id="main" class="site-main">
 
 			<section class="error-404 not-found">
 				<header class="page-header">
+				<div class="img"> 
 				
+				</div>
 
 
-				<img src="404 pic.jpg" alt="404 error" height="442" width="342">
+				<img src="404pic.png" alt="404 error" height="442" width="342">
 
 
 					<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'henock-fantahun' ); ?></h1>
