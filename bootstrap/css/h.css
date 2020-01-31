@@ -2,3 +2,13 @@ div.img{
 
     content: url("/404pic.png");
 }
+#blog-br{
+    border-style: groove;
+    margin-bottom: 5%;
+}
+.col-sm-4{
+    border-style:double;
+    border-top:hidden;
+    border-bottom:hidden;
+    border-right:hidden;
+}
