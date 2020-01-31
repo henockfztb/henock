@@ -39,7 +39,7 @@ get_header();
 	</div><!-- #primary -->
 
 	</div>
-    <div class="col-sm-4">
+    <div class="col-sm-4" >
     <?php get_sidebar(); ?>
     </div>
   </div>
