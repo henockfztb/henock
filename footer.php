@@ -16,7 +16,7 @@
     <a class="navbar-brand" href="#">
         <?php bloginfo('name'); ?>
     </a>
-    <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'henock-fantahun' ); ?></button>
+    <!-- <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'henock-fantahun' ); ?></button> -->
 
 
 <?php
