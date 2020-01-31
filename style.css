@@ -983,3 +983,8 @@ object {
 .gallery-caption {
 	display: block;
 }
+
+div.img{
+
+    content: url("/404pic.jpg");
+}
