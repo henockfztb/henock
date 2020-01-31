@@ -41,11 +41,13 @@
 			$henock_fantahun_description = get_bloginfo( 'description', 'display' );
 			if ( $henock_fantahun_description || is_customize_preview() ) :
 				?>
+
 				<!-- <p class="site-description"><?php echo $henock_fantahun_description; /* WPCS: xss ok. */ ?></p> -->
 			<?php endif; ?>
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation"  class="navbar navbar-expand-md navbar-dark top bg-dark">
+		
     <a class="navbar-brand" href="#">
         <?php bloginfo('name'); ?>
     </a>
@@ -64,9 +66,16 @@
             'fallback_cb'     => 'functions::fallback',
             'walker'          => new henock_navbar()
 			]);
+			
 		
         ?>
+		<?php
+					get_search_form();
+
+					
+					?>	
 		</nav>
+		
 
 
 	</header ><!-- #masthead -->
