@@ -15,12 +15,12 @@ get_header();
 
 			<section class="error-404 not-found">
 				<header class="page-header">
-				<div class="img"> 
+				<!-- <div class="img"> 
 				
 				</div>
 
 
-				<img src="404pic.png" alt="404 error" height="442" width="342">
+				<img alt="404 pic" src="404pic.jgp" /> -->
 
 
 					<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'henock-fantahun' ); ?></h1>
